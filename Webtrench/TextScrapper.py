@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from Scape import is_scrapable
+# from helper import is_scrapable
 
 class TextScrapper:
 
