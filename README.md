@@ -7,6 +7,8 @@ WebTrench provides a comprehensive and powerful toolkit for web scraping. Whethe
 [![GitHub stars](https://img.shields.io/github/stars/nuhmanpk/webtrench.svg?style=social&label=Star&maxAge=2592000)](https://github.com/nuhmanpk/webtrench)
 [![GitHub forks](https://img.shields.io/github/forks/nuhmanpk/webtrench.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/nuhmanpk/webtrench)
 
+Check Documentation [Here](https://github.com/nuhmanpk/Webtrench/wiki)
+
 ## Why WebTrench
 Easy to use: With its simple and intuitive interface, WebTrench makes it easy to extract data from the web.
 Comprehensive: WebTrench includes functions for extracting a wide range of data, from images to tables and beyond.
