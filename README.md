@@ -12,7 +12,7 @@ WebTrench provides a comprehensive and powerful toolkit for web scraping. Whethe
 [![Supported Versions](https://img.shields.io/pypi/pyversions/Webtrench.svg)](https://pypi.org/project/Webtrench)
 ![GitHub](https://img.shields.io/github/license/nuhmanpk/Webtrench)
 ![PyPI](https://img.shields.io/pypi/v/Webtrench)
-[![Documentation Status](https://readthedocs.org/projects/generateApiKey/badge/?version=latest)](https://generateApiKey.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/webtrench/badge/?version=latest)](https://webtrench.readthedocs.io/en/latest/?badge=latest)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/Webtrench)
 [![Downloads](https://static.pepy.tech/personalized-badge/Webtrench?period=week&units=international_system&left_color=grey&right_color=brightgreen&left_text=Downloads/Week)](https://pepy.tech/project/Webtrench)
 ![PyPI - Format](https://img.shields.io/pypi/format/Webtrench)
