@@ -2,12 +2,21 @@
 
 
 WebTrench provides a comprehensive and powerful toolkit for web scraping. Whether you're working on a machine learning project, conducting research, or simply need to gather data from the web, WebTrench is the perfect tool for the job. So why wait? Start using WebTrench today and streamline your data collection process!
-<br><br>
-[![GitHub license](https://img.shields.io/github/license/nuhmanpk/webtrench.svg)](https://github.com/nuhmanpk/webtrench/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/nuhmanpk/webtrench.svg?style=social&label=Star&maxAge=2592000)](https://github.com/nuhmanpk/webtrench)
-[![GitHub forks](https://img.shields.io/github/forks/nuhmanpk/webtrench.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/nuhmanpk/webtrench)
+<br>
+### Check Documentation [Here](https://github.com/nuhmanpk/Webtrench/wiki)
 
-Check Documentation [Here](https://github.com/nuhmanpk/Webtrench/wiki)
+[![Downloads](https://static.pepy.tech/personalized-badge/Webtrench?period=total&units=abbreviation&left_color=grey&right_color=yellow&left_text=Total-Downloads)](https://pepy.tech/project/Webtrench)
+![PyPI - Format](https://img.shields.io/pypi/format/Webtrench)
+[![GitHub license](https://img.shields.io/github/license/nuhmanpk/webtrench.svg)](https://github.com/nuhmanpk/webtrench/blob/main/LICENSE)
+[![Upload Python Package](https://github.com/nuhmanpk/Webtrench/actions/workflows/python-publish.yml/badge.svg)](https://github.com/nuhmanpk/Webtrench/actions/workflows/python-publish.yml)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/Webtrench.svg)](https://pypi.org/project/Webtrench)
+![GitHub](https://img.shields.io/github/license/nuhmanpk/Webtrench)
+![PyPI](https://img.shields.io/pypi/v/Webtrench)
+[![Documentation Status](https://readthedocs.org/projects/generateApiKey/badge/?version=latest)](https://generateApiKey.readthedocs.io/en/latest/?badge=latest)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/Webtrench)
+[![Downloads](https://static.pepy.tech/personalized-badge/Webtrench?period=week&units=international_system&left_color=grey&right_color=brightgreen&left_text=Downloads/Week)](https://pepy.tech/project/Webtrench)
+![PyPI - Format](https://img.shields.io/pypi/format/Webtrench)
+
 
 ## Why WebTrench
 Easy to use: With its simple and intuitive interface, WebTrench makes it easy to extract data from the web.
