@@ -34,8 +34,11 @@ class ImageScrapper:
             for i, element in enumerate(elements):
                 response = requests.get(element["src"])
                 if response.status_code == 200:
-                    with open(f"{folder_path}/{i}-{random.randint(1,30000)}.png", "wb") as f:
-                        f.write(response.content)  
+                    try:
+                        with open(f"{folder_path}/{i}-{random.randint(1,30000)}.png", "wb") as f:
+                            f.write(response.content) 
+                    except Exception as err:
+                        print(err) 
                 else:
                     pass
         except Exception as e:

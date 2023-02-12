@@ -57,7 +57,7 @@ class TextScrapper:
         try:
             response = requests.get(url)
             soup = BeautifulSoup(response.content, 'html.parser')
-            elem = soup.find('div', {'class': class_name})
+            elem = soup.find({'class': class_name})
             if elem is not None:
                 return elem.get_text().strip()
             else:
