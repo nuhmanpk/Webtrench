@@ -2,9 +2,12 @@
 
 
 WebTrench provides a comprehensive and powerful toolkit for web scraping. Whether you're working on a machine learning project, conducting research, or simply need to gather data from the web, WebTrench is the perfect tool for the job. So why wait? Start using WebTrench today and streamline your data collection process!
-<br>
+```python
+pip install Webtrench
+```
+-----
 ### Check Documentation [Here](https://github.com/nuhmanpk/Webtrench/wiki)
-
+------
 [![Downloads](https://static.pepy.tech/personalized-badge/Webtrench?period=total&units=abbreviation&left_color=grey&right_color=yellow&left_text=Total-Downloads)](https://pepy.tech/project/Webtrench)
 ![PyPI - Format](https://img.shields.io/pypi/format/Webtrench)
 [![GitHub license](https://img.shields.io/github/license/nuhmanpk/webtrench.svg)](https://github.com/nuhmanpk/webtrench/blob/main/LICENSE)
@@ -43,3 +46,21 @@ When using WebTrench or any other web scraping tool, it's important to follow et
 ## Legal Warning
 The use of web scraping may be subject to legal restrictions, and the legality of web scraping depends on the jurisdiction in which it is being used. Before using WebTrench, it's important to familiarize yourself with the laws in your jurisdiction and ensure that your use of the tool complies with all applicable laws. WebTrench cannot be held responsible for any illegal use of the tool.
 
+## Contributing Guide
+We welcome contributions from the community! If you are interested in contributing to the WebTrench project, here are some guidelines to get started:
+
+- Check the [issues](https://github.com/nuhmanpk/Webtrench/issues) page to see if there are any open bugs or features that you would like to work on.
+- Fork the repository and make your changes in a separate branch.
+- Once you have made your changes, submit a pull request for review.
+- The project maintainers will review your pull request and provide feedback. If necessary, make any requested changes and resubmit your pull request.
+- Once your pull request is approved and merged, you will become a contributor to the WebTrench project!
+
+### Project Clone Guide
+If you would like to clone the WebTrench repository, follow these steps:
+- Install Git on your computer.
+- Open a terminal window and navigate to the directory where you would like to clone the repository.
+- Run the following command: git clone https://github.com/nuhmanpk/WebTrench.git
+- The repository will be cloned to your computer, and you can now make changes to the code and contribute to the project.
+
+## Reminder
+Please note that WebTrench is currently in the pre-release stage and is not yet finished. If you encounter any issues, please check the [issues](https://github.com/nuhmanpk/Webtrench/issues) page, or consider contributing to make a better version of WebTrench!
