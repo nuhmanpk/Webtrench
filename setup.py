@@ -7,7 +7,7 @@ README = (file / "README.md").read_text()
 
 setuptools.setup(
     name="Webtrench",
-    version="0.1.01",
+    version="0.1.02",
     author="Nuhman Pk",
     author_email="nuhmanpk7@gmail.com",
     long_description = README,

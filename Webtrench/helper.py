@@ -1,7 +1,7 @@
 import requests
 import re
 
-def check_scraping_friendly(url):
+def scrapable(url):
     try:
         # Check if robots.txt allows scraping
         robots_txt = requests.get(url + '/robots.txt').text
