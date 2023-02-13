@@ -8,7 +8,7 @@ pip install Webtrench
 -----
 ### Check Documentation [Here](https://github.com/nuhmanpk/Webtrench/wiki)
 ------
-[![Downloads](https://static.pepy.tech/personalized-badge/Webtrench?period=total&units=abbreviation&left_color=grey&right_color=yellow&left_text=Total-Downloads)](https://pepy.tech/project/Webtrench)
+[![Downloads](https://static.pepy.tech/personalized-badge/webtrench?period=total&units=international_system&left_color=grey&right_color=yellow&left_text=Total-Downloads)](https://pepy.tech/project/webtrench)
 ![PyPI - Format](https://img.shields.io/pypi/format/Webtrench)
 [![GitHub license](https://img.shields.io/github/license/nuhmanpk/webtrench.svg)](https://github.com/nuhmanpk/webtrench/blob/main/LICENSE)
 [![Upload Python Package](https://github.com/nuhmanpk/Webtrench/actions/workflows/python-publish.yml/badge.svg)](https://github.com/nuhmanpk/Webtrench/actions/workflows/python-publish.yml)
