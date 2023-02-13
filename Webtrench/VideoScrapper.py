@@ -6,7 +6,7 @@ import random
 
 class VideoScrapper:
     
-    def video_from_url(url,folder_path=None):
+    def from_url(url,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -44,7 +44,7 @@ class VideoScrapper:
         except Exception as e:
             raise e
 
-    def video_with_url_pattern(url,pattern,folder_path=None):
+    def with_url_pattern(url,pattern,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -68,7 +68,7 @@ class VideoScrapper:
         except Exception as e:
             raise e
 
-    def video_with_class(url,classname,folder_path=None):
+    def with_class(url,classname,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -91,7 +91,7 @@ class VideoScrapper:
         except Exception as e:
             raise e
 
-    def video_with_id(url,idname,folder_path=None):
+    def with_id(url,idname,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -113,4 +113,3 @@ class VideoScrapper:
                     pass
         except Exception as e:
             raise e
-            

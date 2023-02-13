@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 class TextScrapper:
 
-    def text_from_url(url):
+    def from_url(url):
         try:
 
             response = requests.get(url)
@@ -15,7 +15,7 @@ class TextScrapper:
             print(f"An error occurred while trying to extract text from the URL {url}: {e}")
             return None
     
-    def text_from_file(file):
+    def from_file(file):
         try:
             with open(file, 'r') as f:
                 text = f.read()
@@ -24,7 +24,7 @@ class TextScrapper:
             print(f"An error occurred while trying to extract text from the file {file}: {e}")
             return None
 
-    def text_from_html(html):
+    def from_html(html):
         try:    
             soup = BeautifulSoup(html, 'html.parser')
             text = soup.get_text()
@@ -53,7 +53,7 @@ class TextScrapper:
             print(f"An error occurred while trying to extract links from the URL {url}: {e}")
             return None
             
-    def text_from_class(url, class_name):
+    def from_class(url, class_name):
         try:
             response = requests.get(url)
             soup = BeautifulSoup(response.content, 'html.parser')
@@ -66,7 +66,7 @@ class TextScrapper:
             print(f"An error occurred while trying to extract text from the class {class_name} of the URL {url}: {e}")
             return None
             
-    def text_from_id(url, id_name):
+    def from_id(url, id_name):
         try:
             response = requests.get(url)
             soup = BeautifulSoup(response.content, 'html.parser')

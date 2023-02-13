@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import os
-import random
+import re
 # from helper import is_scrapable
 
 class MetaDataScrapper:
@@ -95,7 +94,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_property(url):
+    def with_property(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -105,7 +104,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
     
-    def meta_data_with_name(url):
+    def with_name(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -115,7 +114,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
         
-    def meta_data_with_http_equiv(url):
+    def with_http_equiv(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -125,7 +124,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_content(url):
+    def with_content(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -135,7 +134,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
     
-    def meta_data_with_charset(url):
+    def with_charset(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -145,7 +144,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_itemprop(url):
+    def with_itemprop(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -155,7 +154,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_scheme(url):
+    def with_scheme(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -165,7 +164,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_lang(url):
+    def with_lang(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -175,7 +174,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_dir(url):
+    def with_dir(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -185,7 +184,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_xml_lang(url):
+    def with_xml_lang(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -195,7 +194,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_xmlns(url):
+    def with_xmlns(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -205,7 +204,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_xmlns_xsi(url):
+    def with_xmlns_xsi(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -215,7 +214,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_xsi_schemaLocation(url):
+    def with_xsi_schemaLocation(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -225,7 +224,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_xmlns_og(url):
+    def with_xmlns_og(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -235,7 +234,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_xmlns_fb(url):
+    def with_xmlns_fb(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -245,7 +244,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_xmlns_article(url):
+    def with_xmlns_article(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -255,7 +254,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_xmlns_profile(url):
+    def with_xmlns_profile(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -265,7 +264,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_xmlns_book(url):
+    def with_xmlns_book(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -275,7 +274,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_xmlns_video(url):
+    def with_xmlns_video(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -285,7 +284,7 @@ class MetaDataScrapper:
         except Exception as e:
             raise e
 
-    def meta_data_with_xmlns_music(url):
+    def with_xmlns_music(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -296,7 +295,7 @@ class MetaDataScrapper:
             raise e
 
 
-    def meta_data_with_xmlns_place(url):
+    def with_xmlns_place(url):
         try:
             request=requests.get(url)
             html_content = request.content
@@ -305,3 +304,32 @@ class MetaDataScrapper:
             return meta_data
         except Exception as e:
             raise e
+
+    def get_keyword_density(url, keyword):
+        response = requests.get(url)
+        content = response.content.decode("utf-8").lower()
+        word_count = len(re.findall(keyword, content))
+        total_words = len(re.findall("\w+", content))
+        density = (word_count / total_words) * 100
+        return density
+
+    def get_meta_data(url):
+        response = requests.get(url)
+        content = response.content.decode("utf-8")
+        meta_data = {}
+        meta_tags = re.findall("<meta.*?>", content)
+        for meta_tag in meta_tags:
+            name = re.search("name=['\"](.*?)['\"]", meta_tag)
+            if name:
+                name = name.group(1)
+            else:
+                name = re.search("property=['\"](.*?)['\"]", meta_tag)
+                if name:
+                    name = name.group(1)
+                else:
+                    continue
+            value = re.search("content=['\"](.*?)['\"]", meta_tag)
+            if value:
+                value = value.group(1)
+                meta_data[name] = value
+        return meta_data

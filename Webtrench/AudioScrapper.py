@@ -6,7 +6,7 @@ import random
 
 class AudioScrapper:
     
-    def audio_from_url(url,folder_path=None):
+    def from_url(url,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -44,7 +44,7 @@ class AudioScrapper:
         except Exception as e:
             raise e
 
-    def audio_with_url_pattern(url,pattern,folder_path=None):
+    def with_url_pattern(url,pattern,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -68,7 +68,7 @@ class AudioScrapper:
         except Exception as e:
             raise e
         
-    def audio_with_class(url,cls,folder_path=None):
+    def with_class(url,cls,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -91,7 +91,7 @@ class AudioScrapper:
         except Exception as e:
             raise e
 
-    def audio_with_id(url,cls,folder_path=None):
+    def with_id(url,cls,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -114,7 +114,7 @@ class AudioScrapper:
         except Exception as e:
             raise e
 
-    def audio_with_attribute(url,attr,folder_path=None):
+    def with_attribute(url,attr,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -137,7 +137,7 @@ class AudioScrapper:
         except Exception as e:
             raise e
 
-    def audio_with_attribute_value(url,attr,value,folder_path=None):
+    def with_attribute_value(url,attr,value,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -160,7 +160,7 @@ class AudioScrapper:
         except Exception as e:
             raise e
 
-    def audio_with_attribute_value_pattern(url,attr,value,folder_path=None):
+    def with_attribute_value_pattern(url,attr,value,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:

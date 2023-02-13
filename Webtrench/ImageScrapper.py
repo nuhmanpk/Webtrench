@@ -6,7 +6,7 @@ import random
 
 class ImageScrapper:
 
-    def image_from_url(url,folder_path=None):
+    def from_url(url,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -44,7 +44,7 @@ class ImageScrapper:
         except Exception as e:
             raise e
     
-    def image_with_url_pattern(url,pattern,folder_path=None):
+    def with_url_pattern(url,pattern,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -65,7 +65,7 @@ class ImageScrapper:
         except Exception as e:
             raise e
 
-    def image_with_class(url,class_name,folder_path=None):
+    def with_class(url,class_name,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -85,7 +85,7 @@ class ImageScrapper:
         except Exception as e:
             raise e
 
-    def image_with_id(url,id_name,folder_path=None):
+    def with_id(url,id_name,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -105,7 +105,7 @@ class ImageScrapper:
         except Exception as e:
             raise e
 
-    def image_with_alt(url,alt_name,folder_path=None):
+    def with_alt(url,alt_name,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -125,7 +125,7 @@ class ImageScrapper:
         except Exception as e:
             raise e
 
-    def image_with_title(url,title_name,folder_path=None):
+    def with_title(url,title_name,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -145,7 +145,7 @@ class ImageScrapper:
         except Exception as e:
             raise e
     
-    def image_with_height(url,height,folder_path=None):
+    def with_height(url,height,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -165,7 +165,7 @@ class ImageScrapper:
         except Exception as e:
             raise e
 
-    def image_with_width(url,width,folder_path=None):
+    def with_width(url,width,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
@@ -185,7 +185,7 @@ class ImageScrapper:
         except Exception as e:
             raise e
     
-    def image_with_style(url,style,folder_path=None):
+    def with_style(url,style,folder_path=None):
         if not folder_path:
             folder_path='.'
         try:
