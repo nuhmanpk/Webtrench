@@ -58,7 +58,8 @@ We welcome contributions from the community! If you are interested in contributi
 If you would like to clone the WebTrench repository, follow these steps:
 - Install Git on your computer.
 - Open a terminal window and navigate to the directory where you would like to clone the repository.
-- Run the following command: `git clone https://github.com/nuhmanpk/WebTrench.git`
+- Run the following command: 
+```git clone https://github.com/nuhmanpk/WebTrench.git```
 - The repository will be cloned to your computer, and you can now make changes to the code and contribute to the project.
 
 ## Reminder
