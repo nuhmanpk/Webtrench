@@ -13,7 +13,6 @@ pip install Webtrench
 [![GitHub license](https://img.shields.io/github/license/nuhmanpk/webtrench.svg)](https://github.com/nuhmanpk/webtrench/blob/main/LICENSE)
 [![Upload Python Package](https://github.com/nuhmanpk/Webtrench/actions/workflows/python-publish.yml/badge.svg)](https://github.com/nuhmanpk/Webtrench/actions/workflows/python-publish.yml)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/Webtrench.svg)](https://pypi.org/project/Webtrench)
-![GitHub](https://img.shields.io/github/license/nuhmanpk/Webtrench)
 ![PyPI](https://img.shields.io/pypi/v/Webtrench)
 [![Documentation Status](https://readthedocs.org/projects/webtrench/badge/?version=latest)](https://webtrench.readthedocs.io/en/latest/?badge=latest)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/Webtrench)
