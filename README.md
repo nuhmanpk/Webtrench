@@ -17,7 +17,7 @@ pip install Webtrench
 [![Documentation Status](https://readthedocs.org/projects/webtrench/badge/?version=latest)](https://webtrench.readthedocs.io/en/latest/?badge=latest)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/Webtrench)
 [![Downloads](https://static.pepy.tech/personalized-badge/Webtrench?period=week&units=international_system&left_color=grey&right_color=brightgreen&left_text=Downloads/Week)](https://pepy.tech/project/Webtrench)
-![PyPI - Format](https://img.shields.io/pypi/format/Webtrench)
+
 
 
 ## Why WebTrench
